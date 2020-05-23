@@ -26,6 +26,8 @@ output.
 5. Import the resulting file into KeePassXC using the "Import CSV" function.
    Be sure to click the "First Record Has Field Names" button and map the
    column layout as shown below.
+6. Spot check that the import was correct. If there are problems, please report them
+   using the issue tracker above.
 
 <image src="screenshots/keepassxc-map-fields.png" width="800px"
        alt="KeePassXC Field Mapping">
