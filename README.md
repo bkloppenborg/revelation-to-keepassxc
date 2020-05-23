@@ -10,7 +10,6 @@ organizational structure and all fields in the Revelation XML output.
 
 <image src="screenshots/keepass-resulting-import.png" width="500px"
        alt="KeePassXC Import">
-
  
 # Instructions
 
@@ -38,6 +37,10 @@ database? Try out the functionality on the included demo database.
 
 Open the `demo-database/revelation-test-db` file in Revelation and try out
 the instructions above.
+  
+# License
+
+[![License: GPL v3](/license-gplv3.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
 # Donations
 
