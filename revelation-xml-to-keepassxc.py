@@ -1,4 +1,24 @@
+# revelation-xml-to-keepassxc.py - A python script to convert Revelation
+# XML export data to KeePassXC-compatable CSV format while preserving data
+# and structure.
+#
+# Copyright (C) 2020 Brian Kloppenborg
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 import argparse
+from argparse import RawTextHelpFormatter
 import xml.etree.ElementTree as ET
 import csv
 
@@ -264,7 +284,13 @@ def parse_child(root, folders):
 
 def main():
 
-    parser = argparse.ArgumentParser(description="Converts Revelation XML to KeePassXC friendly CSV")
+    description = ("revelation-xml-to-keepassxc.py.  Copyright (C) 2020 Brian Kloppenborg. \n\n"
+                   "This program comes with ABSOLUTELY NO WARRANTY. This is free software. \n"
+                   "You are welcome to redistribute it under certain conditions; \n"
+                   "see LICENSE for further information."
+                   )
+
+    parser = argparse.ArgumentParser(description=description, formatter_class=RawTextHelpFormatter)
     parser.add_argument('revelation_xml', metavar='xml', type=str,
                         help="Exported Revelation XML file")
     parser.add_argument('output_csv', metavar='csv', type=str,
