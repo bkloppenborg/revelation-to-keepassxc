@@ -3,8 +3,7 @@ Revelation XML to KeePassXC Converter
 
 This tool converts a [Revelation](https://revelation.olasagasti.info/) XML 
 export file to a CSV format comptable with KeePassXC. It preserves the
-organizational structure and almost all data fields in the Revelation XML 
-output.
+organizational structure and all fields in the Revelation XML output.
 
 <image src="screenshots/revelation-demo-database.png" width="500px"
        alt="Revelation Input Database">
@@ -12,7 +11,7 @@ output.
 <image src="screenshots/keepass-resulting-import.png" width="500px"
        alt="KeePassXC Import">
 
-
+ 
 # Instructions
 
 1. Open the Revelation password database.
@@ -26,8 +25,8 @@ output.
 5. Import the resulting file into KeePassXC using the "Import CSV" function.
    Be sure to click the "First Record Has Field Names" button and map the
    column layout as shown below.
-6. Spot check that the import was correct. If there are problems, please report them
-   using the issue tracker above.
+6. Spot check that the import worked correctly. If there are problems, please 
+   report them using the issue tracker above.
 
 <image src="screenshots/keepassxc-map-fields.png" width="800px"
        alt="KeePassXC Field Mapping">
@@ -39,7 +38,7 @@ database? Try out the functionality on the included demo database.
 
 Open the `demo-database/revelation-test-db` file in Revelation and try out
 the instructions above.
-   
+  
 # Donations
 
 If you found this script helpful, please consider donating.
