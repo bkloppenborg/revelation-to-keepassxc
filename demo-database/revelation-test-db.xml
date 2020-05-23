@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<revelationdata version="0.4.14" dataversion="1">
+
+	<entry type="folder">
+		<name>a_folder</name>
+		<description>description</description>
+		<updated>1590187617</updated>
+		<notes></notes>
+
+		<entry type="generic">
+			<name>generic-in-a-folder</name>
+			<description>description</description>
+			<updated>1590196458</updated>
+			<notes>notes</notes>
+			<field id="generic-hostname">hostname</field>
+			<field id="generic-username">username</field>
+			<field id="generic-password">password</field>
+		</entry>
+
+		<entry type="folder">
+			<name>subfolder</name>
+			<description>description</description>
+			<updated>1590187626</updated>
+			<notes></notes>
+
+			<entry type="generic">
+				<name>generic-in-a-subfolder</name>
+				<description>description</description>
+				<updated>1590196468</updated>
+				<notes>notes</notes>
+				<field id="generic-hostname">hostname</field>
+				<field id="generic-username">username</field>
+				<field id="generic-password">8ZJoAmE&amp;</field>
+			</entry>
+		</entry>
+	</entry>
+
+	<entry type="creditcard">
+		<name>credit-card</name>
+		<description>description</description>
+		<updated>1590197466</updated>
+		<notes>notes</notes>
+		<field id="creditcard-cardtype">type</field>
+		<field id="creditcard-cardnumber">number</field>
+		<field id="creditcard-expirydate">expires</field>
+		<field id="creditcard-ccv">ccv</field>
+		<field id="generic-pin">pin</field>
+	</entry>
+
+	<entry type="cryptokey">
+		<name>crypto-key</name>
+		<description>description</description>
+		<updated>1590197460</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-certificate">cert</field>
+		<field id="generic-keyfile">key</field>
+		<field id="generic-password">pass</field>
+	</entry>
+
+	<entry type="database">
+		<name>database</name>
+		<description>description</description>
+		<updated>1590197453</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">H|PuhCZ6</field>
+		<field id="generic-database">database</field>
+	</entry>
+
+	<entry type="door">
+		<name>door lock</name>
+		<description>description</description>
+		<updated>1590197447</updated>
+		<notes>notes</notes>
+		<field id="generic-location">location</field>
+		<field id="generic-code">code</field>
+	</entry>
+
+	<entry type="email">
+		<name>e-mai</name>
+		<description>description</description>
+		<updated>1590197439</updated>
+		<notes>notes</notes>
+		<field id="generic-email">email</field>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">&amp;o"kU2Qy</field>
+	</entry>
+
+	<entry type="ftp">
+		<name>ftp</name>
+		<description>description</description>
+		<updated>1590197432</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-port">port</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">RE]Yb7k@</field>
+	</entry>
+
+	<entry type="generic">
+		<name>generic1</name>
+		<description>description</description>
+		<updated>1590197479</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">\8brbUDu</field>
+	</entry>
+
+	<entry type="generic">
+		<name>generic2</name>
+		<description>description</description>
+		<updated>1590197476</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">U.R&lt;*yx3</field>
+	</entry>
+
+	<entry type="phone">
+		<name>phone</name>
+		<description>description</description>
+		<updated>1590197416</updated>
+		<notes>notes</notes>
+		<field id="phone-phonenumber">1234567890</field>
+		<field id="generic-pin">1234</field>
+	</entry>
+
+	<entry type="remotedesktop">
+		<name>remote desktop</name>
+		<description>description</description>
+		<updated>1590196440</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-port">port</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">oKmC2Ka@</field>
+	</entry>
+
+	<entry type="shell">
+		<name>shell</name>
+		<description>description</description>
+		<updated>1590196445</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">hostname</field>
+		<field id="generic-domain">domain</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">_mP6mZ-'</field>
+	</entry>
+
+	<entry type="vnc">
+		<name>vnc</name>
+		<description>description</description>
+		<updated>1590196431</updated>
+		<notes>notes</notes>
+		<field id="generic-hostname">host</field>
+		<field id="generic-port">port</field>
+		<field id="generic-username">username</field>
+		<field id="generic-password">hX2FxYE)</field>
+	</entry>
+</revelationdata>
