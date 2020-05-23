@@ -25,10 +25,10 @@ KeePassXC while preserving Revelation content and organizational structure.
    
 # Demo
 
-Want to see how this works on your own system before touching your own 
-Revelation database? Try out the functionality on the included demo database.
+Want to see how this works on your own system before exporting your Revelation
+database? Try out the functionality on the included demo database.
 
-Open the `demo-database/revelation-test-db` file in Revelation and follow
+Open the `demo-database/revelation-test-db` file in Revelation and try out
 the instructions above.
    
 # Donations
@@ -37,5 +37,6 @@ If you found this script helpful, please consider donating.
 
 All donations go to Brian Kloppenborg, the original project author and current maintainer.
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=2KTUU3STLNN3G&item_name=Revelation%20XML%20To KeePassXC%20Script&currency_code=USD)
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X6XHVCPMRQEL4)
 
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=2KTUU3STLNN3G&item_name=Revelation%20XML%20To%20KeePassXC%20Script&currency_code=USD)
