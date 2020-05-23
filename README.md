@@ -25,10 +25,10 @@ KeePassXC while preserving Revelation content and organizational structure.
    
 # Demo
 
-Want to see how this works on your own system before exporting your Revelation
-database? Try out the functionality on the included demo database.
+Want to see how this works on your own system before touching your own 
+Revelation database? Try out the functionality on the included demo database.
 
-Open the `demo-database/revelation-test-db` file in Revelation and try out
+Open the `demo-database/revelation-test-db` file in Revelation and follow
 the instructions above.
    
 # Donations
@@ -37,11 +37,5 @@ If you found this script helpful, please consider donating.
 
 All donations go to Brian Kloppenborg, the original project author and current maintainer.
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="2KTUU3STLNN3G" />
-<input type="hidden" name="item_name" value="Revelation XML To KeePassXC Script" />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=2KTUU3STLNN3G&item_name=Revelation%20XML%20To KeePassXC%20Script&currency_code=USD)
+
