@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <revelationdata version="0.4.14" dataversion="1">
 
+	<entry type="website">
+		<name>a-website</name>
+		<description>some website description</description>
+		<updated>1594249701</updated>
+		<notes>note</notes>
+		<field id="generic-url">http://somewhere.net</field>
+		<field id="generic-username">username</field>
+		<field id="generic-email">none@nowhere.net</field>
+		<field id="generic-password">G6x.nK&amp;;</field>
+	</entry>
+
 	<entry type="folder">
 		<name>a_folder</name>
 		<description>description</description>

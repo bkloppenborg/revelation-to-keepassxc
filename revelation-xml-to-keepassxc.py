@@ -231,6 +231,19 @@ def parse_vnc(entry, folders):
     hostname += ':' + port
 
     return make_output(folders, name, username, password, hostname, notes, last_modified, "")
+    
+def parse_website(entry, folders):
+    """Parses a Revelation entry of the 'website' type (i.e. 
+    <entry type="website">. Returns a dictionary with KeePassXC compatable fields."""
+
+    name, notes, last_modified = parse_common(entry)
+    field_ids = ['generic-url', 'generic-username', 
+                 'generic-email', 'generic-password']
+    url, username, email, password = map_fields(entry, field_ids) 
+    
+    notes += "\n" + email
+    
+    return make_output(folders, name, username, password, url, notes, last_modified, "")
 
 def parse_child(root, folders):
     """Recursively parses and extracts KeePassXC compatable fields
@@ -275,6 +288,8 @@ def parse_child(root, folders):
             output = parse_remote_desktop(root, folders)
         elif e_type == "vnc":
             output = parse_vnc(root, folders)
+        elif e_type == "website":
+            output = parse_website(root, folders)
 
         # package the output into a list
         output = [output]
