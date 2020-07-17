@@ -36,7 +36,7 @@ Want to see how this works on your own system before exporting your Revelation
 database? Try out the functionality on the included demo database.
 
 Open the `demo-database/revelation-test-db` file in Revelation and try out
-the instructions above.
+the instructions above. The database password is "demo".
   
 # License
 
