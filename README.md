@@ -10,6 +10,22 @@ organizational structure and all fields in the Revelation XML output.
 
 <image src="screenshots/keepass-resulting-import.png" width="500px"
        alt="KeePassXC Import">
+
+# Prerequisites
+
+If your password database uses only 
+[ASCII characters](http://www.asciitable.com/), no further steps are required.
+
+If your password database uses 
+[unicode characters](https://en.wikipedia.org/wiki/List_of_Unicode_characters),
+like letters with accents, please install the `unicodecsv` package using either 
+your system's package manager or pip. 
+
+For example, on Ubuntu 20.04 you would run
+
+    sudo apt install python3-unicodecsv
+    
+and substitude `python3` for `python` in the command listed below.
  
 # Instructions
 

@@ -20,10 +20,15 @@
 import argparse
 from argparse import RawTextHelpFormatter
 import xml.etree.ElementTree as ET
-import csv
+import sys
 
-# Reads a Revelation XML file and creates a KeePassXC compatable
-# CSV file for import
+# load a csv library, ideally unicode csv
+try:
+    import unicodecsv as csv
+except:
+    print("NOTE: unicodecsv not detected")
+    print("NOTE: Please install unicodecsv if unicode support is required.") 
+    import csv
 
 def make_output(folders, title, username, password, url, notes, last_modified, created):
     """Generates and populates a dictionary containing KeePassXC fields:
